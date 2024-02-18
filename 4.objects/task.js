@@ -28,6 +28,6 @@ this.getAverage = function() {
 this.exclude = function(reason) {
     delete this.subject;
     delete this.marks;
-    this.exclude = reason;
+    this.excluded = reason;
 };
 }
